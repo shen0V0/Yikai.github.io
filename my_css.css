@@ -5,17 +5,18 @@ border-bottom: 1px solid Black;
 margin:0 auto;
 width:80%;
 height:8%;
-font-size:24;
-font-family:Impact;
+font-size:24px;
 justify-content: Left;
 padding-Left:50px;
 }
-button{
-	flex:1;
-	top:10px;
-	margin-right:20px;
-font-size:24;
-height:50px;
+.button{
+	padding:10px;
+
+top:10px;
+margin-right:20px;
+font-size:24px;
+vertical-align:middle;
+height:auto;
 width: auto;
 text-align:center;
 border:None;
@@ -24,7 +25,7 @@ color:Black;
 border-radius:10px;
   cursor: pointer;
 }
-button:hover {
+.button:hover {
   color:Blue;
   text-decoration:underline;
   background-color:rgba(255, 255, 255, 0.3);
@@ -33,7 +34,7 @@ body{
 	background-image: url('./bg.jpg');
 	 background-size: cover;
 font-family:sans-serif;
-font-size:16;
+font-size:16px;
 }
 .left_box {
 	margin:10px;
@@ -78,7 +79,7 @@ margin:0 auto;
 margin-top:50px;
 width:80%;
 height:20%;
-font-size:24;
+font-size:24px;
 font-family:sans-serif;
 flex-direction:column;
 }
@@ -102,7 +103,7 @@ a:hover {
 }
 span{
 color:red;
-text-decoration:bold;
+font-weight:bold;
 }
 table {
 	font-family:Arial;
@@ -112,7 +113,7 @@ table {
     text-align: center;
 }
 caption{
-font-size:20;
+font-size:20px;
 color:Black;
 }
 th {
@@ -164,20 +165,23 @@ th, td {
 	width:auto;
 }
 .li_sp{
-font-weight: bold;
-font-size:24px;
+	margin-top:20px;
+font-size:20px;
 margin-left:-10%;
+}
+.span_sp{
+font-weight:bold;
+font-size:24px;
+color:black;
 }
 .ul_sp{
   list-style-type: none;
   padding-Left:5px;
   margin-bottom:0px;
 }
-.ol_sp{
-	padding:0;
-}
+
 h4{
-margin-left:-15%;
+
 margin-bottom:10px;
 	margin-top:10px;
 }
